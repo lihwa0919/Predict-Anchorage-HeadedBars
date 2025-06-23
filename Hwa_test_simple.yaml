@@ -1,0 +1,44 @@
+name: Hwa_test
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cuda-cudart=12.1.105=0
+  - cuda-cupti=12.1.105=0
+  - cuda-libraries=12.1.0=0
+  - cuda-nvrtc=12.1.105=0
+  - cuda-nvtx=12.1.105=0
+  - cuda-opencl=12.3.101=0
+  - cuda-runtime=12.1.0=0
+  - cudatoolkit=11.3.1=ha36c431_9
+  - numpy=1.19.2=py36h54aff64_0
+  - numpy-base=1.19.2=py36hfa32c7d_0
+  - openpyxl=3.0.9=pyhd3eb1b0_0
+  - optuna=2.10.1=pyhd8ed1ab_0
+  - packaging=21.3=pyhd3eb1b0_0
+  - pandas=1.1.5=py36ha9443f7_0
+  - pickleshare=0.7.5=pyhd3eb1b0_1003
+  - pip=21.2.2=py36h06a4308_0
+  - python=3.6.13=h12debd9_1
+  - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - python_abi=3.6=2_cp36m
+  - pytorch=1.10.2=py3.6_cuda11.3_cudnn8.2.0_0
+  - pytorch-cuda=12.1=ha16c6d3_5
+  - pytorch-mutex=1.0=cuda
+  - pyyaml=5.4.1=py36h27cfd23_1
+  - scikit-learn=0.24.2=py36ha9443f7_0
+  - scipy=1.5.2=py36h0b6359f_0
+  - setuptools=36.4.0=py36_1
+  - simplegeneric=0.8.1=py36_2
+  - sip=4.18=py36_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - skorch=0.11.0=pyh8a188c0_0
+  - torchaudio=0.10.2=py36_cu113
+  - torchvision=0.11.3=py36_cu113
+  - tqdm=4.63.0=pyhd3eb1b0_0
+  - xgboost=1.3.3=py36h06a4308_0
+  - yaml=0.2.5=h7b6447c_0
+
+prefix: /home/kds/anaconda3/envs/Hwa_test
